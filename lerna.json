@@ -1,0 +1,10 @@
+{
+  "packages": [
+    "starters/*",
+    "themes/*",
+    "www/"
+  ],
+  "npmClient": "yarn",
+  "useWorkspaces": true,
+  "version": "independent"
+}
