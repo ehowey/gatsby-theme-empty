@@ -1,9 +1,8 @@
 {
   "name": "gatsby-theme-monorepo-tutorial",
   "description": "Barebones theme for a tutorial on setting up monorepos",
-  "version": "0.0.1",
+  "version": "0.0.2",
   "author": "Eric Howey <eric@erichowey.dev>",
-  "dependencies": {},
   "devDependencies": {
     "gatsby": "^2.24.4",
     "prettier": "^2.0.5",
