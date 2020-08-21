@@ -1,3 +1,3 @@
-# Gatsby Theme Monorepo Tutorial
+# Gatsby Theme Blank
 
-A minimalist monorepo setup for a tutorial
+A minimalist monorepo setup

@@ -1,11 +1,18 @@
-import React from "react"
-import { Layout } from "gatsby-theme-monorepo-tutorial"
+import React, { Fragment } from "react"
 
 const IndexPage = () => {
   return (
-    <Layout>
-      <p>Hello World</p>
-    </Layout>
+    <Fragment>
+      <header>
+        <h1>Gatsby Theme Blank</h1>
+      </header>
+      <main>
+        <p>Hello World</p>
+      </main>
+      <footer>
+        <p>Footer</p>
+      </footer>
+    </Fragment>
   )
 }
 

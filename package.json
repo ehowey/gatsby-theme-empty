@@ -4,7 +4,7 @@
     "starters/*",
     "themes/*"
   ],
-  "name": "gatsby-theme-monorepo",
+  "name": "gatsby-theme-blank-root",
   "devDependencies": {
     "@testing-library/cypress": "^6.0.0",
     "cypress": "^5.0.0",
@@ -13,11 +13,11 @@
     "start-server-and-test": "^1.11.3"
   },
   "scripts": {
-    "develop:tutorial": "yarn workspace gatsby-starter-monorepo-tutorial develop",
-    "build:tutorial": "yarn workspace gatsby-starter-monorepo-tutorial build",
-    "serve:tutorial": "yarn workspace gatsby-starter-monorepo-tutorial serve",
-    "clean:tutorial": "yarn workspace gatsby-starter-monorepo-tutorial clean",
-    "test:tutorial": "start-server-and-test develop:tutorial http://localhost:8000 cy:open",
+    "develop:blank": "yarn workspace gatsby-starter-blank develop",
+    "build:blank": "yarn workspace gatsby-starter-blank build",
+    "serve:blank": "yarn workspace gatsby-starter-blank serve",
+    "clean:blank": "yarn workspace gatsby-starter-blank clean",
+    "test:blank": "start-server-and-test develop:blank http://localhost:8000 cy:open",
     "cy:open": "cypress open",
     "cy:run": "cypress run"
   }

@@ -5,7 +5,9 @@ module.exports = () => {
       description: `Placeholder description`,
       keywords: [`gatsby`],
       author: `Placeholder author`,
-      plugins: [],
     },
-  };
-};
+    plugins: [
+      // Gatsby plugins go here
+    ],
+  }
+}

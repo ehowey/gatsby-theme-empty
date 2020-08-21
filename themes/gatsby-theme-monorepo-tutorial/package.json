@@ -1,7 +1,7 @@
 {
-  "name": "gatsby-theme-monorepo-tutorial",
-  "description": "Barebones theme for a tutorial on setting up monorepos",
-  "version": "0.0.2",
+  "name": "gatsby-theme-blank",
+  "description": "A blank theme intended as a 0 opinion quick start for a Gatsby project.",
+  "version": "0.0.1",
   "author": "Eric Howey <eric@erichowey.dev>",
   "devDependencies": {
     "gatsby": "^2.24.4",
@@ -31,9 +31,9 @@
   },
   "repository": {
     "type": "git",
-    "url": "https://github.com/ehowey/gatsby-theme-monorepo-tutorial"
+    "url": "https://github.com/ehowey/gatsby-theme-blank"
   },
   "bugs": {
-    "url": "https://github.com/ehowey/gatsby-theme-monorepo-tutorial/issues"
+    "url": "https://github.com/ehowey/gatsby-theme-blank/issues"
   }
 }

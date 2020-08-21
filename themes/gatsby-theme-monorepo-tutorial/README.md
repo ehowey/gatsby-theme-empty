@@ -1,3 +1,3 @@
-# Gatsby Theme Monorepo Tutorial
+# Gatsby Theme Blank
 
-This is an absolute minimalist theme for a tutorial on setting up a Gatsby themes monorepo.
+This is an ultra-minimalist theme for setting up a custom Gatsby themes monorepo.
