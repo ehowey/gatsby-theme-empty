@@ -1,3 +1,3 @@
-# Gatsby Theme Blank
+# Gatsby Theme Empty
 
 A minimalist monorepo setup

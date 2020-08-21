@@ -1,6 +1,6 @@
 {
-  "name": "gatsby-theme-blank",
-  "description": "A blank theme intended as a 0 opinion quick start for a Gatsby project.",
+  "name": "gatsby-theme-empty",
+  "description": "A empty theme intended as a 0 opinion quick start for a Gatsby project.",
   "version": "0.0.2",
   "author": "Eric Howey <eric@erichowey.dev>",
   "devDependencies": {
@@ -31,9 +31,10 @@
   },
   "repository": {
     "type": "git",
-    "url": "https://github.com/ehowey/gatsby-theme-blank"
+    "url": "https://github.com/ehowey/gatsby-theme-empty"
   },
   "bugs": {
-    "url": "https://github.com/ehowey/gatsby-theme-blank/issues"
-  }
+    "url": "https://github.com/ehowey/gatsby-theme-empty/issues"
+  },
+  "gitHead": "c3d26274bae4ba834b9974c882597aca71710334"
 }

@@ -1,3 +1,0 @@
-# Gatsby Starter Blank
-
-WIP
