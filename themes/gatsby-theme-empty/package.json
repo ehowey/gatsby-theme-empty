@@ -1,7 +1,7 @@
 {
   "name": "gatsby-theme-empty",
   "description": "A empty theme intended as a 0 opinion quick start for a Gatsby project.",
-  "version": "0.0.2",
+  "version": "0.0.3",
   "author": "Eric Howey <eric@erichowey.dev>",
   "devDependencies": {
     "gatsby": "^2.24.4",
