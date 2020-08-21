@@ -2,8 +2,7 @@
   "private": true,
   "workspaces": [
     "starters/*",
-    "themes/*",
-    "www/"
+    "themes/*"
   ],
   "name": "gatsby-theme-monorepo",
   "devDependencies": {
