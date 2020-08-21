@@ -6,7 +6,7 @@
   ],
   "name": "gatsby-theme-empty-root",
   "devDependencies": {
-    "@testing-library/cypress": "^6.0.0",
+    "@testing-library/cypress": "^6.0.1",
     "cypress": "^5.0.0",
     "gatsby-cypress": "^0.4.10",
     "lerna": "^3.22.1",
