@@ -1,11 +1,8 @@
 # Gatsby Theme Empty
 
-_Fill me up with awesome!_
+Zero config. Lightning Start. Ultra-minimalist. Opinion free.
 
-Zero config.
-Quick Start.
-Ultra-minimalist.
-Opinion free.
+_Go build something amazing_
 
 ## Prerequisites
 
@@ -19,7 +16,7 @@ The following software should already be installed on your local dev environment
 
 1. Click `Use This Template` and create a new repo for your project from this template.
 
-1. `git clone` your project and open it in your code editor of choice
+1. `git clone` your project and open it in your code editor of choice.
 
 1. Find and replace `empty` with your theme's new name. For example if your theme name was going to be `gatsby-theme-kickoff` you would find and replace `empty` -> `kickoff`.
 
@@ -35,7 +32,7 @@ The following software should already be installed on your local dev environment
 
 1. Run `lerna publish` and share it with the world on NPM.
 
-1. Log in to Netlify, point it at the Git repo and launch it! It will automatically build and deploy the starter.
+1. Log in to Netlify, point it at your Git repo and launch it! It will automatically build and deploy the starter.
 
 ## Commands
 
@@ -51,15 +48,24 @@ The syntax for yarn workspaces is long and the following scripts are setup to ma
 
 **yarn test:theme-name**: Uses start-server-and-run to start and Gatsby develop server and then open Cypress.io for running tests.
 
-## What's included
+## What's inside
 
-- An ultra-minimalist theme and starter that include the following dependencies:
+- An ultra-minimalist theme and starter that includes only the following dependencies:
   - Gatsby, React, React-Dom, Prettier
 - Cypress.io with a basic smoke test and an accessibility audit test. Run `yarn test:theme-name`.
 - Lerna preconfigured to manage publishing packages to NPM.
 - GitHub action for CI to run a smoke test on every pull request and push to the main branch. You can use this as a starting point to expand your end-to-end testing.
 - Dependabot to manage any outdated dependencies.
 - Netlify config to automatically build and deploy the included starter
+
+## Helpful links
+
+- [Gatsby themes](https://www.gatsbyjs.com/docs/themes/)
+- [Yarn Workspaces](https://classic.yarnpkg.com/en/docs/workspaces/)
+- [Cypress.io](https://docs.cypress.io/)
+- [Lerna](https://github.com/lerna/lerna)
+- [GitHub Actions](https://docs.github.com/en/actions)
+- [Dependabot v2](https://docs.github.com/en/github/administering-a-repository/keeping-your-dependencies-updated-automatically)
 
 ## What's next
 
