@@ -1,5 +1,5 @@
 <p align="center">
-    <img alt="Gatsby Theme Empty" src="https://www.gatsbycatalyst.com/images/empty-logo.png" width="400" />
+    <img alt="Gatsby Theme Empty" src="https://www.erichowey.dev/images/empty-logo.png" width="400" />
 </p>
 <h1 align="center">
   Gatsby Theme Empty
