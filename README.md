@@ -1,6 +1,6 @@
 # Gatsby Theme Empty
 
-Zero config. Lightning Start. Ultra-minimalist. Opinion free.
+Zero config. Lightning Start. Ultra-minimalist.
 
 _Go build something amazing_
 
@@ -12,7 +12,7 @@ The following software should already be installed on your local dev environment
 - NPM (with account and logged in)
 - Yarn
 
-## Get Started
+## Lightning start
 
 1. Click `Use This Template` and create a new repo for your project from this template.
 
