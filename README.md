@@ -10,7 +10,7 @@ I took everything I have learned from managing a complex Gatsby themes monorepo 
 
 ## Prerequisites
 
-The following software should already be installed on your local dev environment.
+The following tools should already be installed in your local dev environment for this to work. Odds are you already have these tools installed with the possible exception of Yarn. You can follow the [Yarn install instructions](https://classic.yarnpkg.com/en/docs/install/) if you need to before proceeding.
 
 - Gatsby CLI
 - NPM (with account and logged in)
@@ -68,3 +68,5 @@ The syntax for yarn workspaces is long and the following scripts are setup to ma
 ## What's next
 
 One other integration you may want to consider, depending on how you will be using Gatsby themes, is adding a GitHub action to publish your starters to their own repo. Check out [actions-push-subdirectory](https://github.com/johno/actions-push-subdirectories) for instructions on how to do this. This is necessary for your starters to work properly with the `gatsby new` command as they need to be in an indepedent repo.
+
+If you want to see a more advanced version of this monorepo setup you can checkout [Gatsby Theme Catalyst](https://github.com/ehowey/gatsby-theme-catalyst) which uses these same tools across a repository with over 10 interlinked themes.
