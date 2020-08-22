@@ -18,7 +18,7 @@ The following software should already be installed on your local dev environment
 
 ## Lightning start
 
-This might look like a lot of steps - I just broke it down into small steps. The main thing creating a new repo from this template and then running a quick find and replace in your code editor of choice.
+This might look like a lot of steps - but I just broke it down into detailed steps. The two key parts are creating a new repo using this template and then running a find and replace in your code editor of choice replacing `empty` with your theme name of choice.
 
 1. Click `Use This Template` and create a new repo for your project from this template.
 
@@ -67,4 +67,4 @@ The syntax for yarn workspaces is long and the following scripts are setup to ma
 
 ## What's next
 
-Obviously you should build something amazing but one other integration you may want to consider, depending on how you will be using Gatsby themes, is adding a GitHub action to publish your starters to their own repo. Check out [actions-push-subdirectory](https://github.com/johno/actions-push-subdirectories) for instructions on how to do this. This is necessary for your starters to work properly with the `gatsby new` command.
+One other integration you may want to consider, depending on how you will be using Gatsby themes, is adding a GitHub action to publish your starters to their own repo. Check out [actions-push-subdirectory](https://github.com/johno/actions-push-subdirectories) for instructions on how to do this. This is necessary for your starters to work properly with the `gatsby new` command as they need to be in an indepedent repo.
