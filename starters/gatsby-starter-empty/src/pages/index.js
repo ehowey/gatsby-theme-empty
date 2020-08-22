@@ -7,7 +7,7 @@ const IndexPage = () => {
         <h1>Gatsby Theme Empty</h1>
       </header>
       <main>
-        <p>Fill me up with awesomeness!</p>
+        <p>Create something amazing!</p>
       </main>
       <footer>
         <p>Footer</p>
