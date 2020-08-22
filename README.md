@@ -10,7 +10,7 @@ I took everything I have learned from managing a complex Gatsby themes monorepo 
 
 ## Prerequisites
 
-The following tools should already be installed in your local dev environment for this to work. Chances are you already have these tools installed with the possible exception of Yarn. You can follow the Yarn [install instructions](https://classic.yarnpkg.com/en/docs/install/) before proceeding if you need to.
+The following tools should already be installed in your local dev environment for this to work. Odds are you already have these tools installed with the possible exception of Yarn. You can follow the [Yarn install instructions](https://classic.yarnpkg.com/en/docs/install/) if you need to before proceeding.
 
 - Gatsby CLI
 - NPM (with account and logged in)
