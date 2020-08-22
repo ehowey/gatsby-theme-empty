@@ -1,3 +1,3 @@
 # Gatsby Theme Empty
 
-A minimalist monorepo setup
+A zero config monorepo template for Gatsby themes development.
