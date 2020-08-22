@@ -1,9 +1,7 @@
 <p align="center">
     <img alt="Gatsby Theme Empty" src="https://www.erichowey.dev/images/empty-logo.png" width="400" />
 </p>
-<h1 align="center">
-  Gatsby Theme Empty
-</h1>
+<hr/>
 
 <h3 align="center">A template to setup a Gatsby themes monorepo</h3>
 
