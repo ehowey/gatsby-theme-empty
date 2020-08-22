@@ -59,7 +59,7 @@ The syntax for yarn workspaces is long and the following scripts are setup to ma
 ## What's inside
 
 - An ultra-minimalist [Gatsby](https://www.gatsbyjs.com/) theme and starter preconfigured to work in unison using [Yarn workspaces](https://classic.yarnpkg.com/en/docs/workspaces/).
-- [Cypress.io](https://www.cypress.io/) preconfigured with a basic smoke test and an accessibility audit test. Try running `yarn test:theme-name` and see what happens.
+- [Cypress.io](https://www.cypress.io/) preconfigured with a basic smoke test and an accessibility audit test (with [cypress-axe](https://github.com/avanslaars/cypress-axe)). Try running `yarn test:theme-name` and see what happens.
 - [Lerna](https://github.com/lerna/lerna) preconfigured to manage publishing packages to NPM.
 - GitHub action preconfigured for CI to run a smoke test on every pull request and push to the main branch.
 - [Dependabot](https://docs.github.com/en/github/administering-a-repository/keeping-your-dependencies-updated-automatically) to manage any outdated dependencies.
