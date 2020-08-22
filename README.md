@@ -48,27 +48,17 @@ The syntax for yarn workspaces is long and the following scripts are setup to ma
 
 **yarn clean:theme-name**: Runs `gatsby clean` on your starter.
 
-**yarn test:theme-name**: Uses start-server-and-run to start and Gatsby develop server and then open Cypress.io for running tests.
+**yarn test:theme-name**: Uses start-server-and-run to start and Gatsby develop server and then open Cypress.io for running end-to-end tests.
 
 ## What's inside
 
-- An ultra-minimalist theme and starter that includes only the following dependencies:
-  - Gatsby, React, React-Dom, Prettier
-- Cypress.io with a basic smoke test and an accessibility audit test. Run `yarn test:theme-name`.
-- Lerna preconfigured to manage publishing packages to NPM.
-- GitHub action for CI to run a smoke test on every pull request and push to the main branch. You can use this as a starting point to expand your end-to-end testing.
-- Dependabot to manage any outdated dependencies.
-- Netlify config to automatically build and deploy the included starter
-
-## Helpful links
-
-- [Gatsby themes](https://www.gatsbyjs.com/docs/themes/)
-- [Yarn Workspaces](https://classic.yarnpkg.com/en/docs/workspaces/)
-- [Cypress.io](https://docs.cypress.io/)
-- [Lerna](https://github.com/lerna/lerna)
-- [GitHub Actions](https://docs.github.com/en/actions)
-- [Dependabot v2](https://docs.github.com/en/github/administering-a-repository/keeping-your-dependencies-updated-automatically)
+- An ultra-minimalist [Gatsby](https://www.gatsbyjs.com/) theme and starter preconfigured to work in unison using [Yarn workspaces](https://classic.yarnpkg.com/en/docs/workspaces/).
+- [Cypress.io](https://www.cypress.io/) preconfigured with a basic smoke test and an accessibility audit test. Try running `yarn test:theme-name` and see what happens.
+- [Lerna](https://github.com/lerna/lerna) preconfigured to manage publishing packages to NPM.
+- GitHub action preconfigured for CI to run a smoke test on every pull request and push to the main branch.
+- [Dependabot](https://docs.github.com/en/github/administering-a-repository/keeping-your-dependencies-updated-automatically) to manage any outdated dependencies.
+- [Netlify](https://www.netlify.com/) config to automatically build and deploy the included starter
 
 ## What's next
 
-Depending on how you want to use this monorepo you may also want to add a GitHub action to publish your starters to their own repo. Check out [actions-push-subdirectory](https://github.com/johno/actions-push-subdirectories).
+Obviously you should build something amazing but one other integration you may want to consider, depending on how you will be using Gatsby themes, is adding a GitHub action to publish your starters to their own repo. Check out [actions-push-subdirectory](https://github.com/johno/actions-push-subdirectories) for instructions on how to do this. This is necessary for your starters to work properly with the `gatsby new` command.
