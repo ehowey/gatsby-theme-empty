@@ -69,13 +69,13 @@ The syntax for yarn workspaces is long and the following scripts are setup to ma
 
 1. **Where is the demo?:** There is no demo. There is nothing to show really. It is a blank page with a title, a couple of lines of text and that is it. Nothing fancy to look at but an "empty" page where you can create something amazing! My hope was that there would be a _very_ minimal amount of work for you to undo before getting going.
 
-1. **Why are the tests failing in this repo:** Yes! They are failing in this repo because it is a template and does not include a yarn.lock file. If you follow the instructions above your tests will start passing once you commit to GitHub because you will now have a yarn.lock file which the test runner needs to run.
+1. **Why are the tests failing in this repo?:** They are failing in this repo because it is a template and does not include a yarn.lock file. If you follow the instructions above your tests will start passing once you commit to GitHub because you will generate a new a yarn.lock file when running the install process.
 
 1. **Do I need to publish to NPM?:** No! But this repo is setup assuming that at some point you will want to publish either a private or public theme. Note that Netlify deploys will not work properly until you publish the theme.
 
 1. **Why isn't Netlifying build succeeding?:** There are two main reasons this could be happening. Are you sure that you renamed your folders properly following the instructions above? Is the theme published on NPM (Netlify will build from the NPM version)?
 
-1. **Why is this so, bare, like there is almost nothing here?:** The only opinions this repo has are about the tooling (e.g. Workspaces, Cypress and Dependabot) that I have found are helpful for building Gatsby themes. You have to choose how you are going to build your site and install all the necessary plugins and packages necessary to this. If you want a more opinionated and complete set of themes, checkout my other project, [Gatsby Theme Catalyst](https://github.com/ehowey/gatsby-theme-catalyst).
+1. **Why is this theme so, bare, there is almost nothing here?:** The only opinions this repo has are about the tooling (e.g. Workspaces, Cypress and Dependabot) that I have found are helpful for building Gatsby themes. You have to choose how you are going to build your site and install all the necessary plugins and packages necessary to this. If you want a more opinionated and complete set of themes, checkout my other project, [Gatsby Theme Catalyst](https://github.com/ehowey/gatsby-theme-catalyst).
 
 ## What's next
 
