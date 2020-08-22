@@ -1,8 +1,6 @@
 # Gatsby Theme Empty
 
-Zero config. Lightning Start. Ultra-minimalist.
-
-_Go build something amazing_
+I took everything I have learned from managing a complex Gatsby themes monorepo and distilled it down to a lightning fast template you can use to setup your own Gatsby themes monorepo with Yarn workspaces, Lerna, Cypress, GitHub actions, and depedabot all preconfigured.
 
 ## Prerequisites
 
@@ -13,6 +11,8 @@ The following software should already be installed on your local dev environment
 - Yarn
 
 ## Lightning start
+
+This might look like a lot of steps - I just broke it down into small steps. The main thing creating a new repo from this template and then running a quick find and replace in your code editor of choice.
 
 1. Click `Use This Template` and create a new repo for your project from this template.
 
