@@ -28,4 +28,4 @@ jobs:
           build: yarn build:empty
           start: yarn serve:empty
           config-file: cypress/cypress-github-actions.json
-          spec: cypress/e2e/themes.test.js
+          spec: cypress/e2e/smoke.test.js

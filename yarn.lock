@@ -2399,7 +2399,7 @@
   dependencies:
     defer-to-connect "^1.0.1"
 
-"@testing-library/cypress@^6.0.0":
+"@testing-library/cypress@^6.0.1":
   version "6.0.1"
   resolved "https://registry.yarnpkg.com/@testing-library/cypress/-/cypress-6.0.1.tgz#c924a69617db6a403c498abcb63759b79318fc76"
   integrity sha512-hcPu2OnVuSTX1yDubEe7TBRD6mP2VgyopP1WTBIrJP79INPZdgOAX+TMNH68uZ/r5b4C7100IB4hjPIEQ+/Xog==
@@ -3416,6 +3416,11 @@ axe-core@^3.5.4:
   version "3.5.5"
   resolved "https://registry.yarnpkg.com/axe-core/-/axe-core-3.5.5.tgz#84315073b53fa3c0c51676c588d59da09a192227"
   integrity sha512-5P0QZ6J5xGikH780pghEdbEKijCTrruK9KxtPZCFWUpef0f6GipO+xEZ5GKCb020mmqgbiNO6TcA55CriL784Q==
+
+axe-core@^4.0.1:
+  version "4.0.1"
+  resolved "https://registry.yarnpkg.com/axe-core/-/axe-core-4.0.1.tgz#e337c2ed1e6fe73920166d8b0b0b352e1b50d8ae"
+  integrity sha512-OSCABHvSNDleKqJP7DUwEBvMVbr/gtOj2vCDoKKz967fxe9WqtCZLo3IRNOO2fJcu+eSFsu8aAToHfIY7sPLaw==
 
 axios@^0.19.0, axios@^0.19.2:
   version "0.19.2"
@@ -5261,6 +5266,11 @@ cyclist@^1.0.1:
   version "1.0.1"
   resolved "https://registry.yarnpkg.com/cyclist/-/cyclist-1.0.1.tgz#596e9698fd0c80e12038c2b82d6eb1b35b6224d9"
   integrity sha1-WW6WmP0MgOEgOMK4LW6xs1tiJNk=
+
+cypress-axe@^0.8.1:
+  version "0.8.1"
+  resolved "https://registry.yarnpkg.com/cypress-axe/-/cypress-axe-0.8.1.tgz#ddb37dca6570c0642dda2388daf678e83b3e8d3f"
+  integrity sha512-hX48+r5n7Ns7CHkn601Ag0JiCG1vby5+g7QhlP8X+mkiVYpTLpXAPiiaKFj9QTTCdZSI5+0UqwIxA+ShTsr5tA==
 
 cypress@*, cypress@^5.0.0:
   version "5.0.0"
@@ -7217,6 +7227,11 @@ gatsby-telemetry@^1.3.27:
     lodash "^4.17.15"
     node-fetch "2.6.0"
     uuid "3.4.0"
+
+gatsby-theme-empty@^0.0.3:
+  version "0.0.3"
+  resolved "https://registry.yarnpkg.com/gatsby-theme-empty/-/gatsby-theme-empty-0.0.3.tgz#687496d6088ab2d524545d496f6d8d1c3128c4f7"
+  integrity sha512-UV2u6TAEfB671QCYWO4cBdz810M1tDvzC2WROIQuMZubPKxt4yrALxTXV2VOkl3/srW+MnkMfIZtqBXiyKpyDw==
 
 gatsby@^2.24.4:
   version "2.24.47"
