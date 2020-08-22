@@ -1,4 +1,11 @@
-# Gatsby Theme Empty
+<p align="center">
+    <img alt="Gatsby Theme Empty" src="https://www.gatsbycatalyst.com/images/empty-logo.png" width="400" />
+</p>
+<h1 align="center">
+  Gatsby Theme Empty
+</h1>
+
+<h3 align="center">A template to setup a Gatsby themes monorepo</h3>
 
 I took everything I have learned from managing a complex Gatsby themes monorepo and distilled it down to a lightning fast template you can use to setup your own Gatsby themes monorepo with Yarn workspaces, Lerna, Cypress, GitHub actions, and depedabot all preconfigured.
 
