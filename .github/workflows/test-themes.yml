@@ -17,7 +17,7 @@ on:
       - ".github/**"
       - "cypress/**"
 jobs:
-  test_tutorial:
+  test_theme:
     runs-on: ubuntu-latest
     steps:
       - name: Checkout
