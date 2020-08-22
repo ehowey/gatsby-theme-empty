@@ -20,6 +20,8 @@ The following software should already be installed on your local dev environment
 
 1. Find and replace `empty` with your theme's new name. For example if your theme name was going to be `gatsby-theme-kickoff` you would find and replace `empty` -> `kickoff`.
 
+1. Update the folder names for the theme and starter. For example; from `gatsby-starter-empty` and `gatsby-theme-empty` to `gatsby-starter-kickoff` and `gatsby-theme-kickoff`.
+
 1. Run `yarn install` to setup yarn workspaces
 
 1. Run `lerna init` to initialize Lerna
@@ -28,7 +30,7 @@ The following software should already be installed on your local dev environment
 
 1. Create something amazing.
 
-1. Commit your changes to Git.
+1. Commit any changes to Git.
 
 1. Run `lerna publish` and share it with the world on NPM.
 
