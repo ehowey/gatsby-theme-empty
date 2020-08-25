@@ -26,6 +26,8 @@ This might look like a lot of steps - but I just broke it down into detailed ste
 
 1. Find and replace `empty` with your theme's new name. For example if your theme name was going to be `gatsby-theme-kickoff` you would find and replace `empty` -> `kickoff`.
 
+1. Update fields such as author, description, etc in the `package.json` for the theme and starter. The package name should already be updated via the previous step.
+
 1. Update the folder names for the theme and starter. For example; from `gatsby-starter-empty` and `gatsby-theme-empty` to `gatsby-starter-kickoff` and `gatsby-theme-kickoff`.
 
 1. Run `yarn install` to setup yarn workspaces
