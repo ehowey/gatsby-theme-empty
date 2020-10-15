@@ -7,12 +7,12 @@
     "gatsby": "^2.24.4",
     "prettier": "^2.0.5",
     "react": "^16.13.1",
-    "react-dom": "^16.13.1"
+    "react-dom": "^16.14.0"
   },
   "peerDependencies": {
     "gatsby": "^2.24.4",
     "react": "^16.13.1",
-    "react-dom": "^16.13.1"
+    "react-dom": "^16.14.0"
   },
   "keywords": [
     "gatsby",
