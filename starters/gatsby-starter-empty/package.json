@@ -5,13 +5,13 @@
   "private": true,
   "author": "Eric Howey <eric@erichowey.dev>",
   "dependencies": {
-    "gatsby": "^2.24.4",
+    "gatsby": "^2.27.0",
     "gatsby-theme-empty": "^0.0.0",
     "react": "^16.13.1",
     "react-dom": "^16.13.1"
   },
   "devDependencies": {
-    "prettier": "^2.0.5"
+    "prettier": "^2.2.0"
   },
   "keywords": [
     "gatsby",
