@@ -13,8 +13,8 @@ I took everything I have learned from managing a complex Gatsby themes monorepo 
 The following tools should already be installed in your local dev environment for this to work. Odds are you already have these tools installed with the possible exception of Yarn. You can follow the [Yarn install instructions](https://classic.yarnpkg.com/en/docs/install/) if you need to before proceeding.
 
 - Gatsby CLI
-- NPM (with account and logged in)
 - Yarn
+- NPM (with account if you want to publish the theme)
 
 ## Lightning start
 
@@ -26,9 +26,13 @@ This might look like a lot of steps - but I just broke it down into detailed ste
 
 1. Find and replace `empty` with your theme's new name. For example if your theme name was going to be `gatsby-theme-kickoff` you would find and replace `empty` -> `kickoff`.
 
+1. Update fields such as author, description, etc in the `package.json` for the theme and starter. The package name should already be updated via the previous step.
+
 1. Update the folder names for the theme and starter. For example; from `gatsby-starter-empty` and `gatsby-theme-empty` to `gatsby-starter-kickoff` and `gatsby-theme-kickoff`.
 
 1. Run `yarn install` to setup yarn workspaces
+
+1. Make an initial commit to GitHub with all of your changed names and folders. You should see the smoke test run on your push to the main branch.
 
 1. Run `lerna init` to initialize Lerna
 
@@ -36,11 +40,9 @@ This might look like a lot of steps - but I just broke it down into detailed ste
 
 1. Create something amazing.
 
-1. Commit any changes to Git.
+1. When you are ready run `lerna publish` and share it with the world on NPM.
 
-1. Run `lerna publish` and share it with the world on NPM.
-
-1. Log in to Netlify, point it at your Git repo and launch it! It will automatically build and deploy the starter.
+1. Login to Netlify, point it at your Git repo and launch it! It will automatically build and deploy the starter.
 
 ## Commands
 
@@ -59,11 +61,23 @@ The syntax for yarn workspaces is long and the following scripts are setup to ma
 ## What's inside
 
 - An ultra-minimalist [Gatsby](https://www.gatsbyjs.com/) theme and starter preconfigured to work in unison using [Yarn workspaces](https://classic.yarnpkg.com/en/docs/workspaces/).
-- [Cypress.io](https://www.cypress.io/) preconfigured with a basic smoke test and an accessibility audit test. Try running `yarn test:theme-name` and see what happens.
+- [Cypress.io](https://www.cypress.io/) preconfigured with a basic smoke test and an accessibility audit test (with [cypress-axe](https://github.com/avanslaars/cypress-axe)). Try running `yarn test:theme-name` and see what happens.
 - [Lerna](https://github.com/lerna/lerna) preconfigured to manage publishing packages to NPM.
 - GitHub action preconfigured for CI to run a smoke test on every pull request and push to the main branch.
 - [Dependabot](https://docs.github.com/en/github/administering-a-repository/keeping-your-dependencies-updated-automatically) to manage any outdated dependencies.
 - [Netlify](https://www.netlify.com/) config to automatically build and deploy the included starter
+
+## FAQ
+
+1. **Where is the demo?:** There is no demo. There is nothing to show really. It is a blank page with a title, a couple of lines of text and that is it. Nothing fancy to look at but an "empty" page where you can create something amazing! My hope was that there would be a _very_ minimal amount of work for you to undo before getting going.
+
+1. **Why are the tests failing in this repo?:** They are failing in this repo because it is a template and does not include a yarn.lock file. If you follow the instructions above your tests will start passing once you commit to GitHub because you will generate a new a yarn.lock file when running the install process.
+
+1. **Do I need to publish to NPM?:** No! But this repo is setup assuming that at some point you will want to publish either a private or public theme. Note that Netlify deploys will not work properly until you publish the theme.
+
+1. **Why isn't Netlifying build succeeding?:** There are two main reasons this could be happening. Are you sure that you renamed your folders properly following the instructions above? Is the theme published on NPM (Netlify will build from the NPM version)?
+
+1. **Why is this theme so, bare, there is almost nothing here?:** The only opinions this repo has are about the tooling (e.g. Workspaces, Cypress and Dependabot) that I have found are helpful for building Gatsby themes. You have to choose how you are going to build your site and install all the necessary plugins and packages necessary to this. If you want a more opinionated and complete set of themes, checkout my other project, [Gatsby Theme Catalyst](https://github.com/ehowey/gatsby-theme-catalyst).
 
 ## What's next
 
